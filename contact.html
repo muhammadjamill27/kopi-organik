@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contact - Kopi Organik Premium</title>
+    <meta
+      name="description"
+      content="Hubungi kami untuk informasi dan pemesanan Kopi Organik Premium."
+    />
+    <link rel="canonical" href="https://kopiorganikpremium.com/contact.html" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org/",
+        "@type": "Product",
+        "name": "Kopi Organik Premium",
+        "image": "https://kopiorganikpremium.com/images/kopi.jpg",
+        "description": "Nikmati Kopi Organik Premium 100% alami tanpa bahan kimia.",
+        "sku": "KOPI-ORG-PREM-001",
+        "brand": {
+          "@type": "Brand",
+          "name": "Kopi Organik Premium"
+        },
+        "offers": {
+          "@type": "Offer",
+          "url": "https://kopiorganikpremium.com/checkout.html",
+          "priceCurrency": "IDR",
+          "price": "89000",
+          "priceValidUntil": "2025-12-31",
+          "availability": "https://schema.org/InStock",
+          "itemCondition": "https://schema.org/NewCondition"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.7",
+          "reviewCount": "123"
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <h1 class="brand">Kopi Organik Premium</h1>
+        <ul class="nav-links">
+          <li><a href="/" class="nav-link">Home</a></li>
+          <li><a href="/about.html" class="nav-link">About Us</a></li>
+          <li><a href="/products.html" class="nav-link">Products</a></li>
+          <li><a href="/gallery.html" class="nav-link">Gallery</a></li>
+          <li><a href="/blogs.html" class="nav-link">Blogs</a></li>
+          <li><a href="/contact.html" class="nav-link active">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="container">
+      <h1>Hubungi Kami</h1>
+      <p>
+        Jika ada pertanyaan atau ingin memesan, silakan isi form di bawah ini:
+      </p>
+
+      <form action="/submit-contact" method="post" class="contact-form">
+        <label for="name">Nama:</label><br />
+        <input type="text" id="name" name="name" required /><br /><br />
+
+        <label for="email">Email:</label><br />
+        <input type="email" id="email" name="email" required /><br /><br />
+
+        <label for="message">Pesan:</label><br />
+        <textarea id="message" name="message" rows="5" required></textarea
+        ><br /><br />
+
+        <button type="submit" class="btn btn-primary">Kirim</button>
+      </form>
+    </main>
+
+    <footer class="footer">
+      <p>
+        © 2025 Kopi Organik Premium.
+        <a href="/privacy-policy.html">Kebijakan Privasi</a>
+      </p>
+    </footer>
+  </body>
+</html>
